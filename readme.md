@@ -42,6 +42,8 @@ _**DİKKAT!!!**_ Burada DB adı girilmez. Çünkü root kullanıcısıdır.
               }
            )
 
+       ``db.createUser({user:"hs1",pwd:"root",roles:["readWrite","dbAdmin"]})``  
+
    - Buradan sonra root bağlantısından çıkarak yeniden bağlantı yapıyoruz. 
    - Burada dikkat etmemiz gereken husus artık bir kullanıcı bir DB'ye yetkili kılınmış durumda bu nedenle bağlantı kısmında DB adının mutlaka yazılması gerekmektedir.     
 

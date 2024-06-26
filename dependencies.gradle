@@ -18,6 +18,8 @@ ext {
             springBootStarterDataMongo  : "org.springframework.boot:spring-boot-starter-data-mongodb:${versions.springBoot}",
             springBootValidation        : "org.springframework.boot:spring-boot-starter-validation:${versions.springBoot}",
             springCloudOpenFeign        : "org.springframework.cloud:spring-cloud-starter-openfeign:${versions.springCloud}",
+            springCloudConfigServer     : "org.springframework.cloud:spring-cloud-config-server:${versions.springCloud}",
+            springCloudConfigClient     : "org.springframework.cloud:spring-cloud-starter-config:${versions.springCloud}",
             postgreSQL                  : "org.postgresql:postgresql:${versions.postgreSQL}",
             lombok                      : "org.projectlombok:lombok:${versions.lombok}",
             mapstruct                   : "org.mapstruct:mapstruct:${versions.mapstruct}",
